@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+        height: 100vh;
+    }
+
+.caja{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100vh;  
+    
+
+}
+
+.cajita{
+    position: fixed;
+    justify-content: right;
+    top: 10em;
+    bottom: 11em;
+    left: 60px;
+    width: 70%;
+    height: max-content;
+    padding-left: 35px;
+}
+
+video{
+     position: static;
+     width: auto;
+     height: auto;
+    }
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    width: 90%;
+    height: auto;
+    padding-left: 120px;
+    right: 100px;
+    padding-top: 60px;
+      
+}
+
+.formato1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6em;    
+    color: white;
+    letter-spacing: 1px;
+    
+}
+
+.formato2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5em;    
+    color: white;
+    letter-spacing: -3px;
+   
+}
+
+.formato3{
+    color: white;
+    font-size: 2em;
+    font-family: 'Anybody', cursive;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+
+.formato4{
+    font-weight: bold;
+    font-family: 'Anybody', cursive;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 4px;
+    color: black;
+    padding: 12px;
+    width: 12%;
+}
+
+.foot{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    position: static;
+    padding: 10px;
+    width: 50%;
+    padding-left: 60px;     
+}
+
+.dirs{
+    padding: 35px;
+    
+}
+
+.sd{
+    text-decoration-line: none;
+    color: white;
+    font-size: 1.6em;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
